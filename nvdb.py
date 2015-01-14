@@ -59,7 +59,7 @@ class Objekt:
                 'fra': veglenke['fra'], 
                 'til': veglenke['til']
             }
-        veglenker.append(veglenkerad)        
+        veglenker.append(veglenkerad) # Is this intended, or is should this be inside the for loop?       
         return veglenker
             
     def lengde(self):
